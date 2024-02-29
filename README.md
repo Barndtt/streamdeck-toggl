@@ -1,3 +1,11 @@
+> **A version compatible with API version 9 of Toggl Track**
+> 
+> Exchange main_pi.js in C:\Users\<UserName>\AppData\Roaming\Elgato\StreamDeck\Plugins\io.moeritz.streamdeck.toggl.sdPlugin\pi with main_pi.js in the pi directory of this repository
+> 
+> Exchange main.js in C:\Users\<UserName>\AppData\Roaming\Elgato\StreamDeck\Plugins\io.moeritz.streamdeck.toggl.sdPlugin\plugin with main.js in plugin directory of this repository
+> 
+> Restart Stream Deck
+
 > **⏸ Development ended - open to handover project**
 > 
 > Unfortunately, I am lacking time and energy to actively uphold development of this plugin. It still works with its bugs and quirks, but I will archive the plugin as-is for the time being. If anyone would like to take over and continue the development of this plugin, I'd be very happy - please get in touch.
