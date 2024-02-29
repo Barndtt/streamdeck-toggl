@@ -129,7 +129,7 @@ async function toggle(context, settings) {
       startEntry(apiToken, activity, workspaceId, projectId, billableToggle).then(v=>refreshButtons())
     } else if (entryData.wid == workspaceId && entryData.pid == projectId && entryData.description == activity) {
       //The one running is "this one" -- toggle to stop
-      stopEntry(apiToken, entryData.id, workspace_id).then(v=>refreshButtons())
+      stopEntry(apiToken, entryData.id, workspaceId).then(v=>refreshButtons())
     } else {
       //Just start the new one, old one will stop, it's toggl.
       startEntry(apiToken, activity, workspaceId, projectId, billableToggle).then(v=>refreshButtons())
